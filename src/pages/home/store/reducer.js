@@ -37,6 +37,40 @@ const defaultState = fromJS({
       imgUrl: 'https://upload-images.jianshu.io/upload_images/2521398-657f5b785dbc3ca7.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/240',
       desc: '领英的最新职场报告指出，95后在职7个月就会选择离职。其实，不只是95后，所有的职场新人在半年内的离职率都是挺高的。跟年龄段没太大关系。 95后...'
     }
+  ],
+  recommendList: [
+    {
+      id: 1,
+      imgUrl: 'https://cdn2.jianshu.io/assets/web/banner-s-3-7123fd94750759acf7eca05b871e9d17.png'
+    },
+    {
+      id: 2,
+      imgUrl: 'https://cdn2.jianshu.io/assets/web/banner-s-4-b70da70d679593510ac93a172dfbaeaa.png'
+    },
+    {
+      id: 3,
+      imgUrl: 'https://cdn2.jianshu.io/assets/web/banner-s-4-b70da70d679593510ac93a172dfbaeaa.png'
+    }
+  ],
+  writerList: [
+    {
+      id: 1,
+      title: '无限猴子',
+      desc: '写了71k字 · 233喜欢',
+      imgUrl: 'https://upload.jianshu.io/users/upload_avatars/13213889/7314c5cc-ca7f-4542-b914-2c8dffaf324d.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp'
+    },
+    {
+      id: 2,
+      title: '阿栈',
+      desc: '写了373.5k字 · 651喜欢',
+      imgUrl: 'https://upload.jianshu.io/users/upload_avatars/2558050/7761b285-2805-4534-9870-ba7dcc7538ec.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp'
+    },
+    {
+      id: 3,
+      title: '一只支',
+      desc: '写了642k字 · 1.6k喜欢',
+      imgUrl: 'https://upload.jianshu.io/users/upload_avatars/607979/2326a842-dc37-48f2-b15b-239b47700e26.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp'
+    }
   ]
 })
 
