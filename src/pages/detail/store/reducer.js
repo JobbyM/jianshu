@@ -13,6 +13,7 @@ export default (state = defaultState, action) => {
         title: action.title,
         content: action.content
       })
+    default:
+      return state
   }
-  return state
 }
