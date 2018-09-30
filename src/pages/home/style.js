@@ -175,3 +175,15 @@ export const Qrcode = styled.div`
     color: #999;
   }
 `
+
+export const BackTop = styled.div`
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border: 1px solid #dcdcdc;
+  font-size: 14px;
+`
