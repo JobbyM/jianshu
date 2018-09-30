@@ -17,6 +17,7 @@ import {
   Addition,
   Button
 } from './style'
+import { Link } from 'react-router-dom'
 
 class Header extends Component {
 
@@ -65,9 +66,13 @@ class Header extends Component {
     const { focused, handleInputFocus, handleInputBlur, list } = this.props
     return (
       <HeaderWrapper>
-        <Logo />
+        <Link to='/'>
+          <Logo />
+        </Link>
         <Nav>
-          <NavItem className="left active">首页</NavItem>
+          <Link to='/'>
+            <NavItem className="left active">首页</NavItem>
+          </Link>
           <NavItem className="left">下载App</NavItem>
           <NavItem className="right">登录</NavItem>
           <NavItem className="right">
